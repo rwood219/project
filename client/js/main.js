@@ -4,14 +4,14 @@ let lat;
 //api key
 const apiKey = "";
 
-//fetch geoLocation url --WORKING 
+//fetch geoLocation url
 fetch(
   `http://api.openweathermap.org/data/2.5/weather?lat=39.3425259&lon=-74.4710183999&appid=${apiKey}`
 )
   .then((response) => response.json())
   .then((data) => console.log(data));
 
-  //fetch example api url --WORKING
+  //fetch example api url
 fetch(
   `http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=${apiKey}`
 )
@@ -19,7 +19,6 @@ fetch(
   .then((data) => console.log(data));
 
 //check for geolocation and get position return; JSON from api
-//THIS IS NOT WORKING; NEED TO WORK ON APP.JS TO LINK
 if (!navigator.geolocation) {
   alert("app requires geolocation to be enabeled");
 } else {
