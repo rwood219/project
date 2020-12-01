@@ -2,7 +2,7 @@ let long;
 let lat;
 
 //api key
-const apiKey = "7d60d961f40b12ba72fbcb6211117dd0";
+const apiKey = "";
 
 //fetch geoLocation url --WORKING 
 fetch(
