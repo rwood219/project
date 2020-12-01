@@ -1,0 +1,10 @@
+:root {
+    --light-color: rgb(238, 247, 160);
+    --dark-color: rgb(26, 26, 26);
+}
+
+body {
+    background-color: var(--light-color);
+}
+
+
