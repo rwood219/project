@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Weather</h1>
 
-</head>
-<body>
-    <h1>index</h1>
+    <!--current weather-->
+    <div class="current">
+      <span id="description"></span>
+      <span id="current-temp"></span>
+      <span id="current-wind"></span>
+      <span id="location"></span>
+    </div>
+
+    <!--alert sidebar section-->
+    <div class="alerts">
+      <p id="alert-text"></p>
+    </div>
+
+    <!--Extended Forcast-->
+    <div class="extended-forcast">
+      <ul id="day-one">
+        SUNDAY
+      </ul>
+      <ul id="day-two">
+        MONDAY
+      </ul>
+      <ul id="day-three">
+        TUESDAY
+      </ul>
+    </div>
 
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
