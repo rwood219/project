@@ -10,7 +10,7 @@ if (!navigator.geolocation) {
     console.log(position.coords.latitude, position.coords.longitude);
 
     //api key
-    const apiKey = "7d60d961f40b12ba72fbcb6211117dd0";
+    const apiKey = "__________";
     //current weather URL
     let currentWeatherApi = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=${apiKey}`;
     //extended forcast URL
