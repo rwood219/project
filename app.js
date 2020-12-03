@@ -14,9 +14,6 @@ app.get('/weather/:latlong', async (req, res) => {
     console.log(latlong)
     const lat = latlong[0];
     const long = latlong[1]
-
-
-    const apiKey = "7d60d961f40b12ba72fbcb6211117dd0";
     const api_url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${api_key}`
     const fetch_response = await fetch(api_url)
     const json = await fetch_response.json()
